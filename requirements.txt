@@ -1,0 +1,40 @@
+# Core dependencies
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.24.0
+plotly>=5.15.0
+pyyaml>=6.0
+
+# LLM and Evaluation
+deepeval>=0.20.0
+ollama>=0.1.7
+boto3>=1.28.0
+openai>=1.0.0
+
+# NLP and ML
+transformers>=4.30.0
+torch>=2.0.0
+sentence-transformers>=2.2.0
+rouge-score>=0.1.2
+bert-score>=0.3.13
+
+# Data processing
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Web and API
+requests>=2.31.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+pathlib>=1.0.1
+datetime
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0

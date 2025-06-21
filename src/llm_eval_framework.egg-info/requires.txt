@@ -1,0 +1,12 @@
+streamlit
+pandas
+boto3
+ollama
+deepeval
+pyyaml
+
+[dev]
+pytest
+pytest-mock
+pytest-cov
+streamlit-testing

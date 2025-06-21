@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: llm-eval-framework
+Version: 0.1.0
+Requires-Dist: streamlit
+Requires-Dist: pandas
+Requires-Dist: boto3
+Requires-Dist: ollama
+Requires-Dist: deepeval
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-mock; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: streamlit-testing; extra == "dev"
+Dynamic: provides-extra
+Dynamic: requires-dist
